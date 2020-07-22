@@ -1,0 +1,155 @@
+/* Sprint Overview */
+.aui-page-panel {
+    background: #3a4353;
+}
+
+#gh:not(.ghx-sticky-sprint-headers-disabled) .ghx-backlog-container .ghx-backlog-header {
+    background: #4c6373;
+}
+
+.ghx-backlog-container {
+    background-color: #4c6373;
+}
+
+#ghx-backlog-column {
+    border-left: 2px solid #3B4252;
+}
+
+#ghx-operations {
+    border-bottom: 2px solid #3B4252;
+}
+
+.aui-button, .aui-button:visited, a.aui-button {
+    color: #E5E9F0;
+}
+
+#ghx-header h1, #ghx-header h2 {
+    color: #E5E9F0;
+}
+
+a, a:visited, a:focus, a:hover, a:active, a.blogHeading {
+    color: #88C0D0 !important;
+}
+
+.ghx-backlog-header .ghx-name {
+    color: #D8DEE9;
+}
+
+.ghx-backlog-container .ghx-issue-count {
+    color: #E5E9F0;
+}
+
+.ghx-sprint-info {
+    color: #E5E9F0;
+}
+
+.aui-lozenge-success {
+    background-color: #A3BE8C;
+    border-color: #A3BE8C;
+    color: #E5E9F0;
+}
+
+aui-badge, .aui-badge {
+    color: #D8DEE9;
+    background: #c86f27;
+    font-weight: 600;
+}
+
+aui-badge.ghx-in-progress, .aui-badge.ghx-in-progress, aui-badge.jira-badge__primary, .aui-badge.jira-badge__primary {
+    color: #D8DEE9;
+    background: #1875bc;
+}
+
+aui-badge.ghx-done, .aui-badge.ghx-done, aui-badge.scheduler-success, .aui-badge.scheduler-success {
+    color: #D8DEE9;
+    background: #05a093;
+}
+
+.aui-button-link {
+    color: #88C0D0 !important;
+}
+
+a, a:visited, a:focus, a:hover, a:active, a.blogHeading {
+    color: #88C0D0 !important;
+}
+
+body {
+    color: #E5E9F0;
+}
+
+h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight > p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh > p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a {
+    color: #ffffff;
+}
+
+.ghx-issue-compact.ghx-selected, .ghx-issue-compact .ghx-selected-group {
+    background: #81A1C1;
+}
+
+.ghx-issue-compact {
+    background: #81A1C1;
+    color: #D8DEE9;
+}
+
+.ghx-issue-compact .ghx-estimate {
+    background: #81A1C1;
+}
+
+.ghx-issue-compact.ghx-selected .ghx-end {
+    background: #81A1C1;
+}
+
+.ghx-issue-compact:hover {
+    background: #63809d;
+}
+
+.ghx-issue-compact.ghx-selected .ghx-end:hover {
+    background: #63809d;
+}
+
+.ghx-issue-compact.ghx-selected .ghx-end:hover {
+    background: #63809d;
+}
+
+/* Story(Issue) Page */
+#issue-content {
+    background-color: #3a4353;
+}
+
+.issue-view>.issue-container .issue-header {
+    background-color: #3a4353;
+}
+
+h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight > p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh > p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a {
+    color: #D8DEE9;
+}
+
+.issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2, .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4, .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
+    background-color: #3a4353;
+}
+
+.aui-lozenge.jira-issue-status-lozenge-green {
+    background-color: #0a756c;
+    border-color: #0a756c;
+    color: #E5E9F0;
+}
+
+.aui-button .aui-icon, .aui-button:hover .aui-icon {
+    color: #88C0D0;
+}
+
+.property-list .item .name {
+    color: #D8DEE9;
+}
+
+.aui-sidebar .aui-sidebar-wrapper {
+    border-color: #4C566A;
+    background-color: #4C566A;
+}
+
+.aui-sidebar .aui-sidebar-footer {
+    border-top: 1px solid #4C566A;
+}
+
+.aui-sidebar-submenu .aui-nav>li>.aui-nav-item>.aui-icon, .aui-sidebar .aui-nav>li>.aui-nav-item>.aui-icon {
+    color: #88C0D0;
+}
