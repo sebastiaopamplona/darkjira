@@ -1,3 +1,9 @@
+/* General */
+body.ghx-rapid-views {
+    overflow-y: hidden;
+    background: #4C566A !important;
+}
+
 /* Sprint Overview */
 .aui-page-panel {
     background: #3a4353;
@@ -118,6 +124,52 @@ h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-cont
     background: #63809d;
 }
 
+body.ghx-rapid-views #ghx-detail-view[style] {
+    left: 0 !important;
+    background: #4C566A !important;
+}
+
+.ghx-detail-contents .ghx-detail-view-blanket {
+    background-color: #4C566A;
+    bottom: 0;
+    display: none;
+    left: 0;
+    /* opacity: 0.8; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.ghx-detail-view .ui-sidebar {
+    cursor: col-resize;
+    background-color: #b48ead87;
+}
+
+.ghx-iconfont {
+    color: #BF616A;
+}
+
+path {
+    fill: #A3BE8C;
+}
+
+.ghx-editable:hover {
+    background: #3a4353;
+    color: #D8DEE9;
+    -webkit-border-radius: 2.01px;
+    border-radius: 2.01px;
+    -webkit-box-shadow: 0 0 0 1px #c1c7d0;
+    box-shadow: 0 0 0 1px #c1c7d0;
+}
+
+
+
+
+
+
+
+
 /* Story(Issue) Page */
 #issue-content {
     background-color: #3a4353;
@@ -225,6 +277,62 @@ td.confluenceTd {
     color: #88C0D0 !important;
 }
 
-::-webkit-scrollbar-thumb {
+#ghx-plan ::-webkit-scrollbar-thumb {
     background: #B48EAD;
+    border-radius: 4px;
+}
+
+.ghx-detail-nav {
+    background: #4C566A;
+}
+
+.ghx-detail-head {
+    background: #4C566A;
+}
+
+.ghx-detail-view.gh-editable-detail-view .ghx-detail-contents .issue-body-content {
+    background: #4C566A;
+}
+
+.ghx-detail-nav-item .aui-icon {
+    color: #88C0D0;
+}
+
+.ghx-detail-view.gh-editable-detail-view .ghx-detail-issue .module.toggle-wrap .toggle-title {
+    color: #D8DEE9;
+}
+
+.issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2, .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4, .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
+    background-color: #4C566A;
+}
+
+.ghx-detail-issue {
+    color: #ECEFF4;
+}
+
+dt.ghx-detail-term {
+    color: #D8DEE9;
+}
+
+.item-details dl>dt {
+    color: #D8DEE9;
+}
+
+#lh_tree_chart{
+  background: #4C566A !important;
+}
+
+.preformatted, .code {
+    border: 1px solid #2E3440;
+    background: #4C566A;
+    color: #D8DEE9;
+}
+
+.issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2, .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4, .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
+    background-color: transparent;
+}
+
+form.aui .jira-wikifield~.save-options.wiki-button-bar, .sd-rte-bar {
+    border: 1px solid #4C566A;
+    background-color: #4C566A;
 }
