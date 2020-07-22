@@ -4,11 +4,11 @@
 }
 
 #gh:not(.ghx-sticky-sprint-headers-disabled) .ghx-backlog-container .ghx-backlog-header {
-    background: #4c6373;
+    background: #4C566A;
 }
 
 .ghx-backlog-container {
-    background-color: #4c6373;
+    background-color: #4C566A;
 }
 
 #ghx-backlog-column {
@@ -82,24 +82,32 @@ h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-cont
 }
 
 .ghx-issue-compact.ghx-selected, .ghx-issue-compact .ghx-selected-group {
-    background: #81A1C1;
+    background: #2E3440;
 }
 
 .ghx-issue-compact {
-    background: #81A1C1;
+    background: #2E3440;
     color: #D8DEE9;
 }
 
 .ghx-issue-compact .ghx-estimate {
-    background: #81A1C1;
+    background: #2E3440;
 }
 
 .ghx-issue-compact.ghx-selected .ghx-end {
-    background: #81A1C1;
+    background: #2E3440;
 }
 
 .ghx-issue-compact:hover {
-    background: #63809d;
+    background: #4a4f58;
+}
+
+.ghx-issue-compact:hover .ghx-end, .ghx-issue-compact.ghx-selected:hover .ghx-end, .ghx-issue-compact.ghx-flagged:hover .ghx-end, .ghx-issue-compact.ghx-flagged.ghx-selected:hover .ghx-end {
+    background: #4a4f58;
+}
+
+.ghx-issue-compact.ghx-selected:hover, .ghx-issue-compact .ghx-selected-group:hover {
+    background: #4a4f58;
 }
 
 .ghx-issue-compact.ghx-selected .ghx-end:hover {
@@ -200,4 +208,23 @@ td.confluenceTd {
 
 .activity-name {
     color: #D8DEE9;
+}
+
+#header .aui-header {
+    /* background: url(/jira/s/j8e1qj/805004/b6b48b2…/1.0.20/_/download/resources/ag.em.plugin.daimler-styling-plugin:resources/images/img_header_brushed_bg_md.jpg) !important; */
+    background: #333b48 !important;
+}
+
+.aui-header .aui-dropdown2-trigger, #header .aui-header .aui-nav-link, #header .aui-header .aui-nav-imagelink, #header .aui-header a {
+    color: #88C0D0 !important;
+}
+
+.aui-header .aui-dropdown2-trigger:hover, .aui-header .aui-dropdown2-trigger.active, #header .aui-header .aui-nav-link.active, #header .aui-header .aui-nav-imagelink.active, #header .aui-header .aui-nav-imagelink:focus, #header .aui-header .aui-nav-imagelink:hover, #header .aui-header a:focus, #header .aui-header a:hover, #header .aui-header a:active {
+    background-color: #4C566A !important;
+    border-color: #4C566A !important;
+    color: #88C0D0 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #B48EAD;
 }
